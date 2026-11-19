@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="midnight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobair Hossain | Software Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand"><span>&lt;</span>Jobair Hossain<span>/&gt;</span></a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <div class="theme-switcher" role="group" aria-label="Theme Switcher">
+          <button class="theme-btn active" data-theme="midnight">Midnight</button>
+          <button class="theme-btn" data-theme="editorial">Editorial</button>
+          <button class="theme-btn" data-theme="matrix">Matrix</button>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            SOFTWARE ENGINEERING STUDENT &bull; DIU
+          </div>
+          <h1>Hi, I'm <span class="accent-text">Jobair Hossain</span></h1>
+          <div class="typing-line">
+            <span id="typingText"></span><span class="cursor">|</span>
+          </div>
+          <p class="hero-bio">
+            I'm Jobair Hossain, a Software Engineering student at Daffodil International University (graduating December 2028) with a strong passion for programming and problem-solving.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+
+          <div class="social-row">
+            <a href="https://github.com/invader-jht" target="_blank" rel="noopener" class="social-pill">GitHub</a>
+            <a href="https://www.facebook.com/share/1FHiajYDxR/" target="_blank" rel="noopener" class="social-pill">Facebook</a>
+            <a href="https://www.instagram.com/invader_jht?knvt=bG1sb3c0bmdhMTcz" target="_blank" rel="noopener" class="social-pill">Instagram</a>
+            <button type="button" id="copyEmailHero" class="social-pill">Copy Email</button>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Jobair Hossain" id="profileImg">
+            <div class="photo-caption">
+              <strong>Jobair Hossain</strong>
+              <span>B.Sc. in Software Engineering &bull; DIU</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ABOUT ME</span>
+          <h2>A little about me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="card about-text">
+            <p>
+              I'm Jobair Hossain, a Software Engineering student at Daffodil International University (graduating December 2028) with a strong passion for programming and problem-solving.
+            </p>
+            <p>
+              Currently in my 2nd year, I focus on building clean, structured software applications, designing normalized relational databases, and mastering core computer science fundamentals while preparing for a career in Data Science.
+            </p>
+
+            <div class="meta-grid">
+              <div class="meta-item">
+                <span>Target Role</span>
+                <strong>Want to be Data Scientist</strong>
+              </div>
+              <div class="meta-item">
+                <span>Location</span>
+                <strong>Bangladesh</strong>
+              </div>
+              <div class="meta-item">
+                <span>Languages</span>
+                <strong>English, Bangla, Hindi</strong>
+              </div>
+              <div class="meta-item">
+                <span>Email</span>
+                <strong>jobairhossain29200@gmail.com</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="card stat-card">
+              <div class="stat-value">2028</div>
+              <div class="stat-label">Expected Graduation</div>
+            </div>
+            <div class="card stat-card">
+              <div class="stat-value">4+</div>
+              <div class="stat-label">Core Languages</div>
+            </div>
+            <div class="card stat-card">
+              <div class="stat-value">5</div>
+              <div class="stat-label">CS Foundations</div>
+            </div>
+            <div class="card stat-card">
+              <div class="stat-value">3</div>
+              <div class="stat-label">Spoken Languages</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">ACADEMIC &amp; CORE</span>
+          <h2>Education &amp; CS Foundations</h2>
+        </div>
+
+        <div class="dual-slot-grid">
+          <div class="card slot-card">
+            <h3 class="slot-title">Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">2025 &mdash; Present (Graduating Dec 2028)</span>
+                <h4>B.Sc. in Software Engineering</h4>
+                <p class="timeline-org">Daffodil International University (DIU)</p>
+                <span class="grade-badge">CGPA: 3.93 / 4.00</span>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">Higher Secondary</span>
+                <h4>Higher Secondary Certificate (HSC)</h4>
+                <p class="timeline-org">Noakhali Govt College</p>
+                <span class="grade-badge">GPA: 4.25 / 5.00</span>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">Secondary School</span>
+                <h4>Secondary School Certificate (SSC)</h4>
+                <p class="timeline-org">Noakhali Zilla School</p>
+                <span class="grade-badge">GPA: 5.00 / 5.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card slot-card">
+            <h3 class="slot-title">CS Foundations</h3>
+            <p class="slot-subtitle">Completed core Software Engineering &amp; Computer Science coursework:</p>
+            <ul class="foundation-list">
+              <li>
+                <strong>Data Structures &amp; Algorithms</strong>
+                <span>Algorithmic problem-solving, graph traversal, and complexity analysis</span>
+              </li>
+              <li>
+                <strong>Object-Oriented Programming (OOP)</strong>
+                <span>Modular class architecture, encapsulation, inheritance, and polymorphism</span>
+              </li>
+              <li>
+                <strong>Relational Database Architecture &amp; Relational Algebra</strong>
+                <span>Normalized schema design, entity relationships, and formal query logic</span>
+              </li>
+              <li>
+                <strong>System Analysis &amp; Design (UML Modeling)</strong>
+                <span>Use case, sequence, activity, and state diagram modeling</span>
+              </li>
+              <li>
+                <strong>Software Project Management (PMBOK &amp; Agile)</strong>
+                <span>Project planning, stakeholder analysis, and iterative workflows</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">TECHNICAL STACK</span>
+          <h2>What I work with</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card skill-group">
+            <h3>Programming Languages</h3>
+            <div class="tag-list">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="card skill-group">
+            <h3>Web &amp; Databases</h3>
+            <div class="tag-list">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Relational Schema Design</span>
+              <span class="skill-tag">Query Optimization</span>
+            </div>
+          </div>
+
+          <div class="card skill-group">
+            <h3>Tools &amp; Environment</h3>
+            <div class="tag-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Visual Studio Code</span>
+              <span class="skill-tag">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PORTFOLIO</span>
+          <h2>Things I've built</h2>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Full-Stack &amp; UML</button>
+          <button class="filter-btn" data-filter="java">Java &amp; OOP</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card project-card" data-category="web">
+            <span class="project-cat">Full-Stack Marketplace &amp; System Architecture</span>
+            <h3>EcoWaste &amp; Marketplace</h3>
+            <p>
+              A resource-matching platform connecting waste generators with recyclers and buyers through structured discovery and transaction workflows.
+            </p>
+            <div class="tag-list">
+              <span class="mini-tag">Python</span>
+              <span class="mini-tag">Java</span>
+              <span class="mini-tag">MySQL</span>
+              <span class="mini-tag">HTML5</span>
+              <span class="mini-tag">CSS3</span>
+              <span class="mini-tag">JavaScript</span>
+              <span class="mini-tag">UML</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm open-modal" data-project="ecowaste">View Details</button>
+              <a href="https://github.com/invader-jht" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project-card" data-category="java">
+            <span class="project-cat">Database-Driven Management Application</span>
+            <h3>Event Management System</h3>
+            <p>
+              A centralized software system designed to streamline event scheduling, attendee registration, resource allocation, and participation tracking.
+            </p>
+            <div class="tag-list">
+              <span class="mini-tag">Java</span>
+              <span class="mini-tag">MySQL</span>
+              <span class="mini-tag">OOP</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm open-modal" data-project="event">View Details</button>
+              <a href="https://github.com/invader-jht" target="_blank" rel="noopener" class="btn btn-outline btn-sm">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CREDENTIALS</span>
+          <h2>Certificates</h2>
+        </div>
+
+        <div class="cert-grid">
+          <div class="card cert-placeholder">
+            <span class="cert-badge">UPCOMING</span>
+            <h3>Data Science &amp; Python</h3>
+            <p>Certificate slot reserved for upcoming Data Science and analytical coursework credentials.</p>
+          </div>
+          <div class="card cert-placeholder">
+            <span class="cert-badge">UPCOMING</span>
+            <h3>Software Engineering &amp; SQL</h3>
+            <p>Certificate slot reserved for database management and software architecture certifications.</p>
+          </div>
+          <div class="card cert-placeholder">
+            <span class="cert-badge">UPCOMING</span>
+            <h3>Future Credential</h3>
+            <p>Additional verified certificates will be added here as completed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">FAQ</span>
+          <h2>Common questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="card faq-item">
+            <button class="faq-question">
+              <span>What technologies do you primarily work with?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>I work with Python, Java, C, and JavaScript for programming, MySQL for relational database design, and HTML5/CSS3 for web interfaces, alongside Git, GitHub, VS Code, and Linux.</p>
+            </div>
+          </div>
+
+          <div class="card faq-item">
+            <button class="faq-question">
+              <span>What is your career focus and target role?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>I am currently a 2nd-year B.Sc. in Software Engineering student at Daffodil International University (graduating December 2028) with the goal of becoming a Data Scientist.</p>
+            </div>
+          </div>
+
+          <div class="card faq-item">
+            <button class="faq-question">
+              <span>What languages do you speak?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>I communicate fluently in English, Bangla, and Hindi.</p>
+            </div>
+          </div>
+
+          <div class="card faq-item">
+            <button class="faq-question">
+              <span>How can I get in touch with you?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You can email me directly at jobairhossain29200@gmail.com or connect through my GitHub, Facebook, or Instagram links in the Contact section below.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CONTACT</span>
+          <h2>Let's connect</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <span>Direct Email</span>
+            <strong>jobairhossain29200@gmail.com</strong>
+            <button type="button" id="copyEmailContact" class="btn btn-primary btn-sm">Copy Email</button>
+          </div>
+
+          <a href="https://github.com/invader-jht" target="_blank" rel="noopener" class="card contact-card">
+            <span>Code &amp; Repositories</span>
+            <strong>github.com/invader-jht</strong>
+            <span class="link-hint">Open Profile &rarr;</span>
+          </a>
+
+          <a href="https://www.facebook.com/share/1FHiajYDxR/" target="_blank" rel="noopener" class="card contact-card">
+            <span>Social</span>
+            <strong>Facebook</strong>
+            <span class="link-hint">Connect &rarr;</span>
+          </a>
+
+          <a href="https://www.instagram.com/invader_jht?knvt=bG1sb3c0bmdhMTcz" target="_blank" rel="noopener" class="card contact-card">
+            <span>Social</span>
+            <strong>Instagram (@invader_jht)</strong>
+            <span class="link-hint">Follow &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Jobair Hossain &bull; Software Engineering Student</p>
+      <p>Daffodil International University &bull; Bangladesh</p>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="projectModal">
+    <div class="card modal-box">
+      <div class="modal-top">
+        <span class="project-cat" id="modalCategory"></span>
+        <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+      </div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalOverview"></p>
+      <h4>Key Technical Highlights</h4>
+      <ul id="modalHighlights" class="modal-list"></ul>
+      <div id="modalTags" class="tag-list"></div>
+      <div class="modal-footer">
+        <a href="https://github.com/invader-jht" target="_blank" rel="noopener" class="btn btn-primary btn-sm">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-widget">
+    <div class="card chat-window" id="chatWindow">
+      <div class="chat-header">
+        <div>
+          <strong>Ask About Jobair</strong>
+          <span>Quick portfolio assistant</span>
+        </div>
+        <button id="closeChat" aria-label="Close Chat">&times;</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="bot-msg">Hi! Ask me about Jobair's education, skills, projects, target role, or contact info.</div>
+      </div>
+      <div class="chat-chips">
+        <button class="chip" data-q="education">Education</button>
+        <button class="chip" data-q="skills">Skills</button>
+        <button class="chip" data-q="projects">Projects</button>
+        <button class="chip" data-q="goal">Target Role</button>
+      </div>
+    </div>
+    <button class="chat-toggle" id="chatToggle">Ask About Jobair</button>
+  </div>
+
+  <div class="toast" id="toast">Email copied to clipboard!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
